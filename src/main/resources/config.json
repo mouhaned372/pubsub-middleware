@@ -1,0 +1,78 @@
+{
+  "middleware": {
+    "name": "PubSub-Realtime-Middleware",
+    "version": "1.0.0",
+    "maxMemoryKB": 512,
+    "realtimeEnabled": true,
+    "defaultThreadPoolSize": 4,
+    "performance": {
+      "monitoringIntervalMs": 1000,
+      "enableWorstCaseAnalysis": true,
+      "logLevel": "INFO",
+      "enableMetrics": true
+    },
+    "topics": [
+      {
+        "name": "system/critical",
+        "description": "Messages critiques système",
+        "qos": {
+          "reliability": "EXACTLY_ONCE",
+          "priority": "CRITICAL",
+          "deadlineMs": 50,
+          "maxLatencyMs": 100,
+          "redundancyLevel": 2,
+          "persistence": true
+        }
+      },
+      {
+        "name": "sensors/data",
+        "description": "Données de capteurs",
+        "qos": {
+          "reliability": "AT_LEAST_ONCE",
+          "priority": "HIGH",
+          "deadlineMs": 200,
+          "maxLatencyMs": 500,
+          "redundancyLevel": 1,
+          "persistence": false
+        }
+      },
+      {
+        "name": "control/commands",
+        "description": "Commandes de contrôle",
+        "qos": {
+          "reliability": "EXACTLY_ONCE",
+          "priority": "CRITICAL",
+          "deadlineMs": 30,
+          "maxLatencyMs": 60,
+          "redundancyLevel": 3,
+          "persistence": true
+        }
+      },
+      {
+        "name": "logging/info",
+        "description": "Logs système",
+        "qos": {
+          "reliability": "BEST_EFFORT",
+          "priority": "LOW",
+          "deadlineMs": 0,
+          "maxLatencyMs": 1000,
+          "redundancyLevel": 0,
+          "persistence": false
+        }
+      }
+    ],
+    "faultTolerance": {
+      "enableFaultDetection": true,
+      "subscriberTimeoutMs": 10000,
+      "maxFailureCount": 3,
+      "enableRecovery": true,
+      "recoveryBufferSize": 100
+    },
+    "realtime": {
+      "enableDeadlineMonitoring": true,
+      "deadlineCheckIntervalMs": 10,
+      "enableScheduler": true,
+      "schedulerThreadPriority": "MAX_PRIORITY"
+    }
+  }
+}
