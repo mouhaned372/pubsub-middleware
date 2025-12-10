@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: fr.telecom.middleware.test.MiddlewareTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.203 s - in fr.telecom.middleware.test.MiddlewareTest

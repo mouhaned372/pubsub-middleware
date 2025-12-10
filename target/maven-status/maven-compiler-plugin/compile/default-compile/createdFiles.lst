@@ -1,3 +1,4 @@
+MonApplication$1.class
 fr\telecom\middleware\api\MiddlewareAPI$1.class
 fr\telecom\middleware\package-info.class
 fr\telecom\middleware\fault\RecoveryManager.class
@@ -16,6 +17,7 @@ fr\telecom\middleware\realtime\Scheduler.class
 fr\telecom\middleware\api\MiddlewareAPI.class
 fr\telecom\middleware\qos\Deadline.class
 fr\telecom\middleware\fault\FaultDetector$SubscriberHealth.class
+MonApplication.class
 fr\telecom\middleware\fault\FaultDetector.class
 fr\telecom\middleware\core\Middleware.class
 fr\telecom\middleware\api\Message$Builder.class
