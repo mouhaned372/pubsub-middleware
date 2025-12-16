@@ -4,13 +4,17 @@ D:\pubsub-middleware\src\main\java\fr\telecom\middleware\realtime\DeadlineMonito
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\core\Subscriber.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\examples\PublisherExample.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\examples\CriticalSystemDemo.java
+D:\pubsub-middleware\src\main\java\fr\telecom\middleware\dashboard\DashboardMiddleware.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\fault\RecoveryManager.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\package-info.java
+D:\pubsub-middleware\src\main\java\fr\telecom\middleware\dashboard\DashboardStarter.java
+D:\pubsub-middleware\src\main\java\fr\telecom\middleware\examples\DashboardDemo.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\fault\FaultDetector.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\realtime\Scheduler.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\core\Publisher.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\api\MiddlewareAPI.java
 D:\pubsub-middleware\src\main\java\MonApplication.java
+D:\pubsub-middleware\src\main\java\fr\telecom\middleware\dashboard\DashboardServer.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\qos\RedundancyManager.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\core\Middleware.java
 D:\pubsub-middleware\src\main\java\fr\telecom\middleware\core\Topic.java

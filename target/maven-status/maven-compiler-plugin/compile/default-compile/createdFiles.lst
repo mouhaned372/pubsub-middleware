@@ -1,3 +1,4 @@
+fr\telecom\middleware\dashboard\DashboardMiddleware.class
 MonApplication$1.class
 fr\telecom\middleware\api\MiddlewareAPI$1.class
 fr\telecom\middleware\package-info.class
@@ -8,13 +9,16 @@ fr\telecom\middleware\examples\SubscriberExample.class
 fr\telecom\middleware\core\Topic.class
 fr\telecom\middleware\realtime\DeadlineMonitor.class
 fr\telecom\middleware\core\Publisher.class
+fr\telecom\middleware\examples\DashboardDemo$2.class
 fr\telecom\middleware\examples\PublisherExample$Alert.class
+fr\telecom\middleware\dashboard\DashboardServer.class
 fr\telecom\middleware\examples\PublisherExample.class
 fr\telecom\middleware\qos\RedundancyManager.class
 fr\telecom\middleware\qos\QoS$Priority.class
 fr\telecom\middleware\api\MiddlewareAPI$MiddlewareStats.class
 fr\telecom\middleware\realtime\Scheduler.class
 fr\telecom\middleware\api\MiddlewareAPI.class
+fr\telecom\middleware\examples\DashboardDemo$1.class
 fr\telecom\middleware\qos\Deadline.class
 fr\telecom\middleware\fault\FaultDetector$SubscriberHealth.class
 MonApplication.class
@@ -25,5 +29,7 @@ fr\telecom\middleware\api\Message.class
 fr\telecom\middleware\qos\QoS$Reliability.class
 fr\telecom\middleware\qos\QoS.class
 fr\telecom\middleware\core\Subscriber.class
+fr\telecom\middleware\dashboard\DashboardStarter.class
 fr\telecom\middleware\examples\CriticalSystemDemo.class
+fr\telecom\middleware\examples\DashboardDemo.class
 fr\telecom\middleware\qos\QoS$Builder.class
